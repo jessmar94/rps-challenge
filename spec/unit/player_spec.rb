@@ -13,9 +13,5 @@ describe Player do
     it 'has a choice equal to nil' do
       expect(player_1.choice).to eq nil
     end
-
-    it 'has 0 points' do
-      expect(player_1.points).to eq 0  
-    end
   end
 end
